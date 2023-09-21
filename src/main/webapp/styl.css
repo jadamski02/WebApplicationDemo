@@ -1,0 +1,106 @@
+html {
+    background: #333333;
+}
+
+#kontener {
+    width: 90%;
+    margin: auto;
+    font-family: "Tahoma", "sans-serif";
+    font-size: 1rem;
+}
+
+#naglowek {
+    width: 100%;
+    background: #ccc;
+    text-align: center;
+    font-size: 2.5rem;
+    height: 150px;
+}
+
+#naglowek h1 {
+    margin: 0;
+    padding-top: 1rem;
+}
+
+#srodek {
+    margin-top: 1rem;
+}
+
+#stopka {
+    clear: both;
+    background: #888;
+    color: white;
+    padding: 0.2rem;
+    text-align: center;
+}
+
+#menu {
+    width: 10rem;
+    float: left;
+    margin-bottom: 1rem;
+}
+
+#newsy {
+    background: #ddd;
+    padding: 0 0.3rem 0 0.3rem;
+}
+
+#tresc {
+    background: #ddd;
+    text-align: justify;
+    padding: 0.5rem;
+    margin-left: 11rem;
+    margin-bottom: 1rem;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    list-style: none;
+    font-size: 90%;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    background: #eee;
+    padding: 0.3rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+#menu a:hover {
+    color: white;
+    background: #888;
+}
+
+@media only screen and (max-width: 640px) {
+    #menu {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    #tresc {
+        margin-left: 0;
+        clear: both;
+    }
+
+    #newsy {
+        text-align: center;
+    }
+
+    #kontener {
+        min-width: 320px;
+        width: 100%;
+    }
+
+}
+
+
+
