@@ -43,6 +43,15 @@ html {
 #newsy {
     background: #ddd;
     padding: 0 0.3rem 0 0.3rem;
+    display: none;
+}
+
+#logowanie {
+    background: #888888;
+}
+
+#loginInfo {
+    background: #888888;
 }
 
 #tresc {
@@ -93,6 +102,7 @@ html {
 
     #newsy {
         text-align: center;
+        display: none;
     }
 
     #kontener {

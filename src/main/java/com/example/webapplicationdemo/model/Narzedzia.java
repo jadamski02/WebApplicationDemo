@@ -78,6 +78,14 @@ public class Narzedzia {
             }
             return szablon.replace("[[SKRYPTY]]", skrypty).replace("[[BODY]]", body).toString();
         }
+
+        public static String uzupelnijUserInfo(String szablon, String userName) {
+        return szablon.replace("[[LOGININFO]]", "  Jesteś zalogowany jako " + userName +
+                "  <form action=\"logout-servlet\">\n" +
+                "    <input type=\"submit\" value=\"Wyloguj\" />\n" +
+                "  </form>").toString();
+
+        }
     }
 
 
